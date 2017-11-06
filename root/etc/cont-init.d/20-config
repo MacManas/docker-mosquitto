@@ -2,7 +2,7 @@
 
 # Copy config
 [[ ! -f /config/mosquitto.conf ]] && cp \
-	/default/mosquitto.conf /config/mosquitto.conf
+	/defaults/mosquitto.conf /config/mosquitto.conf
 
 # Permissions
 chown abc:abc -R \
